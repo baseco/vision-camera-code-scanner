@@ -47,8 +47,8 @@
     "registry": "https://registry.npmjs.org/"
   },
   "devDependencies": {
-    "react-native-reanimated":  "2.4.1",
-    "react-native-vision-camera": "^2.15.4",
+    "react-native-reanimated":  "3.3.0",
+    "react-native-vision-camera": "github:baseco/react-native-vision-camera#main",
     "@commitlint/config-conventional": "^11.0.0",
     "@react-native-community/eslint-config": "^2.0.0",
     "@release-it/conventional-changelog": "^2.0.0",
@@ -63,16 +63,15 @@
     "jest": "^26.0.1",
     "pod-install": "^0.1.0",
     "prettier": "^2.0.5",
-    "react": "17.0.1",
-    "react-native": "0.65.1",
+    "react": "18.2.0",
+    "react-native": "0.72.0",
     "react-native-builder-bob": "^0.18.1",
     "release-it": "^14.2.2",
     "typescript": "^4.1.3"
   },
   "peerDependencies": {
     "react": "*",
-    "react-native": "*",
-    "react-native-vision-camera": ">=2.9.4"
+    "react-native": "*"
   },
   "jest": {
     "preset": "react-native",
